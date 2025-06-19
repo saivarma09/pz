@@ -1,0 +1,13 @@
+<div class="section-title">Today's Schedule</div>
+<ion-list class="custom-list">
+  <ion-item *ngFor="let item of schedule" lines="none">
+    <ion-avatar slot="start">
+      <img [src]="item.avatar" alt="avatar" />
+    </ion-avatar>
+    <ion-label>
+      <div class="schedule-title">{{ item.title }}</div>
+      <div class="schedule-time">{{ item.time }}</div>
+    </ion-label>
+    <!-- <ion-button fill="clear" class="custom-btn" slot="end" size="small">Start Consultation</ion-button> -->
+  </ion-item>
+</ion-list>

@@ -1,0 +1,48 @@
+.schedule-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #141414;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.schedule-time {
+  font-size: 0.95rem;
+  color: #888;
+  font-weight: 400;
+}
+ion-avatar img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #ededed;
+}
+ion-button.custom-btn {
+  background: #ededed !important;
+  color: #141414 !important;
+  font-weight: 700;
+  border-radius: 999px;
+  font-size: 1rem;
+  padding: 0 22px;
+  height: 36px;
+  box-shadow: 0 2px 8px 0 #e0e0e0;
+  letter-spacing: 0.01em;
+  transition: background 0.2s;
+}
+ion-button.custom-btn:active,
+ion-button.custom-btn:focus {
+  background: #e0e0e0 !important;
+}
+ion-item {
+  margin-bottom: 0.7rem;
+  border-radius: 14px;
+  align-items: center;
+  --padding-start: 0.5rem;
+  --padding-end: 0.5rem;
+  --min-height: 64px;
+}
+ion-label {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,35 @@
+.pending-icon {
+  background: #ededed;
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pending-icon i {
+  font-size: 1.7rem;
+  color: #141414;
+  font-weight: 400;
+  /* Use regular style for thinner icons */
+}
+.pending-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #141414;
+}
+.pending-subtitle {
+  font-size: 0.95rem;
+  color: #888;
+  font-weight: 400;
+}
+.chevron-right {
+  font-size: 1.2rem;
+  color: #141414;
+  margin-left: auto;
+}
+ion-item {
+  margin-bottom: 0.7rem;
+  border-radius: 14px;
+  align-items: center;
+}

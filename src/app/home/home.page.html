@@ -1,20 +1,24 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+  <ion-toolbar class="custom-header">
+    <div class="header-avatar" slot="start">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar" />
+    </div>
+    <ion-title class="header-title">Dashboard</ion-title>
+    <div class="header-bell" slot="end">
+      <ion-icon name="notifications-outline" aria-label="Notifications"></ion-icon>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="dashboard-container">
+    <app-schedule-list></app-schedule-list>
+    <app-quick-stats></app-quick-stats>
+    <app-pending-actions></app-pending-actions>
+    <app-activity-feed></app-activity-feed>
+    <app-patient-search></app-patient-search>
+    <app-revenue-analytics></app-revenue-analytics>
+    <app-patient-feedback></app-patient-feedback>
+    <app-health-analytics></app-health-analytics>
   </div>
 </ion-content>
