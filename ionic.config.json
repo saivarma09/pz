@@ -1,0 +1,7 @@
+{
+  "name": "pz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
