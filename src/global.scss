@@ -100,13 +100,9 @@ ion-progress-bar {
 
 .header-background {
   backdrop-filter: none !important;
+  background: #ffff;
 }
 
 .header-ios ion-toolbar:last-of-type{
   --border-width: 0px !important;
-}
-
-:host
- {
-    --background: #ffffff !important;
 }
