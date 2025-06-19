@@ -1,6 +1,18 @@
-.schedule-title {
+.section-title {
   font-weight: 700;
   font-size: 1rem;
+  font-family: 'Manrope', 'Noto Sans', sans-serif !important;
+  color: #141414;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    margin-bottom: 1rem;
+}
+.schedule-title {
+  // font-weight: 700;
+  font-size: 1rem;
+  font-family: 'Poppins', 'Noto Sans', sans-serif !important;
   color: #141414;
   margin-bottom: 2px;
   white-space: nowrap;
@@ -14,7 +26,7 @@
 }
 ion-avatar img {
   width: 44px;
-  height: 44px;
+  height: 34px;
   border-radius: 50%;
   object-fit: cover;
   background: #ededed;

@@ -26,7 +26,18 @@
 }
 .stat-value {
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 400;
   color: #141414;
   letter-spacing: -0.01em;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: 'Manrope', 'Noto Sans', sans-serif !important;
+  color: #141414;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
 }

@@ -36,16 +36,15 @@
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900&display=swap');
 
 body, html, ion-app, ion-content {
-  font-family: 'Lexend', 'Noto Sans', sans-serif !important;
+  font-family: 'Manrope', 'Noto Sans', sans-serif !important;
   background: #f6f6f6 !important;
   color: #141414;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lexend', 'Noto Sans', sans-serif;
+  font-family: 'Manrope', 'Noto Sans', sans-serif;
   font-weight: 700;
   color: #141414;
 }
@@ -105,4 +104,9 @@ ion-progress-bar {
 
 .header-ios ion-toolbar:last-of-type{
   --border-width: 0px !important;
+}
+
+:host
+ {
+    --background: #ffffff !important;
 }

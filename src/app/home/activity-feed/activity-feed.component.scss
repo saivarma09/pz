@@ -8,17 +8,19 @@
   justify-content: center;
 }
 .activity-icon i {
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: #141414;
-  font-weight: 400;
+  font-weight: 100;
 }
 .activity-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1rem;
+font-family: 'Poppins', 'Noto Sans', sans-serif !important;
   color: #141414;
 }
 .activity-subtitle {
   font-size: 0.95rem;
+  font-family: 'Poppins', 'Noto Sans', sans-serif !important;
   color: #888;
   font-weight: 400;
 }
@@ -32,4 +34,16 @@ ion-note {
   font-size: 1rem;
   font-weight: 500;
   margin-left: 1rem;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: 'Manrope', 'Noto Sans', sans-serif !important;
+  color: #141414;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
 }

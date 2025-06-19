@@ -12,13 +12,13 @@ import { IonicModule } from '@ionic/angular';
 export class ActivityFeedComponent implements OnInit {
   activities = [
     {
-      icon: 'calendar-outline',
+      icon: 'fa-regular fa-calendar',
       title: 'Completed Appointment',
       subtitle: 'Consultation with Isabella',
       time: '2h ago',
     },
     {
-      icon: 'person-add-outline',
+      icon: 'fa-regular fa-user',
       title: 'Patient Added',
       subtitle: 'New patient registration',
       time: '4h ago',

@@ -17,7 +17,7 @@ export class PendingActionsComponent implements OnInit {
       subtitle: 'New patient inquiry',
     },
     {
-      icon: 'fa-solid fa-flask',
+      icon: 'fa-regular fa-hourglass',
       title: 'Follow Up on Tests',
       subtitle: 'Lab results pending',
     },
