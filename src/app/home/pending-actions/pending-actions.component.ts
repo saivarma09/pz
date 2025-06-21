@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pending-actions',
@@ -23,8 +24,15 @@ export class PendingActionsComponent implements OnInit {
     },
   ];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {}
 
+  onActionClick(action: any) {
+    if (action.title === 'Review Intake Form') {
+      this.router.navigate(['/new-patients']);
+    } else if (action.title === 'Follow Up on Tests') {
+      this.router.navigate(['/follow-up-tests']);
+    }
+  }
 }

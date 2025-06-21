@@ -92,5 +92,9 @@ ion-list, .custom-list {
   color: #141414;
 }
 
+ion-header {
+  padding-top: env(safe-area-inset-top);
+}
+
 
 

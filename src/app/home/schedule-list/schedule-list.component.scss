@@ -24,13 +24,17 @@
   color: #888;
   font-weight: 400;
 }
-ion-avatar img {
+ion-avatar{
+  height: 44px;
+
+
+img {
   width: 44px;
-  height: 34px;
+  height: 44px;
   border-radius: 50%;
   object-fit: cover;
   background: #ededed;
-}
+}}
 ion-button.custom-btn {
   background: #ededed !important;
   color: #141414 !important;
@@ -54,6 +58,8 @@ ion-item {
   --padding-start: 0.5rem;
   --padding-end: 0.5rem;
   --min-height: 64px;
+  display:flex;
+  align-items: center;
 }
 ion-label {
   margin-left: 0.5rem;

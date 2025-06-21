@@ -106,3 +106,51 @@ ion-progress-bar {
 .header-ios ion-toolbar:last-of-type{
   --border-width: 0px !important;
 }
+
+
+.d-flex{
+  display: flex;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
+@supports(padding: max(0px)) {
+    .post {
+        padding-left: max(12px, env(safe-area-inset-left));
+        padding-right: max(12px, env(safe-area-inset-right));
+    }
+}
+
+
+.post {
+    padding: 12px;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+ion-back-button::part(text){
+display: none;
+}
+
+ion-back-button{
+  color: #242424;
+}
+
+ion-header{
+  background: #fff;
+}
+ion-toolbar::part(background){
+  background: #fff;
+}
+
+
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
