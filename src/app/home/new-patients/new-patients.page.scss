@@ -8,7 +8,7 @@
 .section-title {
   font-size: 1rem;
   font-weight: 600;
-  margin: 2rem 0 1rem 0.5rem;
+  margin: 1rem 0 1rem 0.5rem;
   letter-spacing: -0.015em;
   color: #141414;
 }
@@ -21,10 +21,10 @@ ion-item {
   border-radius: 16px;
   margin-bottom: 1rem;
   align-items: center;
-  --padding-start: 0.5rem;
-  --padding-end: 0.5rem;
+  // --padding-start: 0.5rem;
+  // --padding-end: 0.5rem;
   // --min-height: 72px;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   background: #fff;
   box-shadow: 0 2px 8px 0 #f2f2f2;
   display: flex;
